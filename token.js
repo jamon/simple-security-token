@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var crypto = require("crypto");
 if(process.argv.length < 4) {
     console.log("usage: node token.js <secret> <username> [+offset|-offset|timestamp]")

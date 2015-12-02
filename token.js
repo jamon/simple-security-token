@@ -13,5 +13,5 @@ if(process.argv.length < 5 || process.argv[4].substr(0, 1) === "+" || process.ar
 } else {
     timestamp = process.argv[4];
 }
-var hash = crypto.createHash("md5").update([user, timestamp].join(":")).digest("hex");
+var hash = crypto.createHash("md5").update([secret, user, timestamp].join(":")).digest("hex");
 console.log([hash, user, timestamp].join(":"));

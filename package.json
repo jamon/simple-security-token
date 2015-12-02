@@ -1,0 +1,19 @@
+{
+  "name": "simple-security-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamon/simple-security-token.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamon/simple-security-token/issues"
+  },
+  "homepage": "https://github.com/jamon/simple-security-token#readme"
+}
